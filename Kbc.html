@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		.option
+		{
+			width:49%;
+			height:50px;
+			border:1px solid black;
+		}
+		#Main
+		{
+			position:absolute;
+			bottom:300px;
+			width:100%;
+			height:110px;
+			border:1px solid black;
+			font-size:50px;	
+			text-align:center;		
+
+		}
+		#one
+		{
+			float:left;
+			position: absolute;
+			top:700px;
+			height:80px;
+		}
+		#two
+		{
+
+			float:right;
+			position: absolute;
+			right:0px;
+			top:700px;
+			height:80px;
+		}
+		#three
+		{
+			
+			float:left;
+			position: absolute;
+			top:800px;
+			height:80px;
+		}
+		#four
+		{
+			float:right;
+			position: absolute;
+			right:0px;
+			top:800px;
+			height:80px;
+		}
+		.number
+		{
+			float:left;
+			position: absolute;
+			top:-50px;
+			left:10px;
+			font-size:50px;
+		}
+		.amount
+		{
+			font-size:20px;
+
+		}
+		#Amount
+		{
+			float:right;
+		}
+		#border
+		{
+			height:500px;
+			position: absolute;
+			right:200px;
+			top:25px;
+			border:1px solid black;
+		}
+		body
+		{
+			background-color: #333;
+		}
+		#fifty_fifty
+		{
+			border:1px solid black;
+			border-radius:50px;
+			width:100px;
+			height: 100px;
+			float:left;
+		}
+		img
+		{
+			width:100px;
+			height:100px;
+			border-radius:50px;
+		}
+		#Flip
+		{
+			
+			border:1px solid black;
+			border-radius:50px;
+			width:100px;
+			height:100px;
+			font-size:50px;
+			background-color: white;
+			position: absolute;
+			left:200px;
+			top:0px;
+			text-align:center;
+		}
+		#Flip_question
+		{
+			position: relative;
+
+		}
+		#Double
+		{
+			border:1px solid black;
+			border-radius:50px;
+			width:100px;
+			height:100px;
+			font-size:50px;
+			background-color: white;
+			position: absolute;
+			left:400px;
+			top:0px;
+			text-align:center;
+		}
+
+
+	</style>
+	<title>Kaun Banega Crorepati</title>
+</head>
+<body>
+	<div id="fifty_fifty" title="50:50"><img src="50.png"></img></div>
+	<div id="Flip" title="Flip Question"><p id="Flip_question">?</p></div>
+	<div id="Double"><p id="X2">x2</p></div>
+	<div id="border">
+	</div>
+	<div id="Amount">
+		<div id="amount12" ><p class="amount" id="A12">12.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1,00,00,000</p></div>
+		<div id="amount11"><p class="amount" id="A11">11.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;50,00,000</p></div>
+		<div id="amount10"><p class="amount" id="A10">10.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  25,00,000</p></div>
+		<div id="amount9"><p class="amount" id="A9">9.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12,50,000</p></div>
+		<div id="amount8"><p class="amount" id="A8">8.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    6,40,000</p></div>
+		<div id="amount7"><p class="amount" id="A7">7.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    3,20,000</p></div>
+		<div id="amount6"><p class="amount" id="A6">6.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    1,60,000</p></div>
+		<div id="amount5"><p class="amount" id="A5">5.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      80,000</p></div>
+		<div id="amount4"><p class="amount" id="A4">4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      40,000</p></div>
+		<div id="amount3"><p class="amount" id="A3">3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;       20,000</p></div>
+		<div id="amount2"><p class="amount" id="A2">2.&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        10,000</p></div>
+		<div id="amount1"><p class="amount" id="A1">1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                 5,000</p></div>
+	</div>
+	<div id="Main"></div>
+		<div class="option" id="one"><p class="number" id="one_1"></p></div>
+		<div class="option" id="two"><p class="number" id="two_1"></p></div>
+		<div class="option" id="three"><p class="number" id="three_1"></p></div>
+		<div class="option" id="four"><p class="number" id="four_1"></p></div>
+	
+	<script src="Kbc.js">
+	</script>
+</body>
+</html>
